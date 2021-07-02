@@ -26,9 +26,9 @@ ul {
   max-height: 25px;
 }
 .email-img {
-  height: auto;
-  width: auto;
-  max-width: 25px;
+  height: 5px;
+  width: 5px;
+  max-width: 5px;
   max-height: 25px;
 }
 
