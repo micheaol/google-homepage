@@ -51,6 +51,20 @@ ul {
     padding-top: 0;
 } */
 
+.main-bar {
+    width: 500px;
+    display: inline-block;
+    /* padding-right: 250px; */
+    padding-left: 400px;
+}
+
 .search-bar {
     width: 100%;
+}
+
+#icon {
+    background-image: white url(../images/search.png) no-repeat;
+    background-position: 2px 3px;
+    background-color: rgb(160, 139, 22);
+    /* padding-left: 17px; */
 }
