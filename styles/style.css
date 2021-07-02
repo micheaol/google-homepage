@@ -1,6 +1,7 @@
 body {
     font-size: 14px;
     font-family: Arial, sans-serif;
+    align-items: center;
 }
 
 ul {
@@ -41,6 +42,7 @@ ul {
     height: 250px;
     padding-left: 250px;
     padding-top: 0;
+    padding-bottom: 0;
 }
 
 
@@ -55,16 +57,41 @@ ul {
     width: 500px;
     display: inline-block;
     /* padding-right: 250px; */
-    padding-left: 400px;
+    padding-left: 375px;
+    top: 355px;
+    left: 575px;
 }
 
 .search-bar {
-    width: 100%;
+    margin-top: 0;
+    height: 50px;
+    width: 550px;
+    border-radius: 25px;
+    border: 2px solid rgb(211, 210, 209);
+    padding: 20px;
 }
 
 #icon {
     background-image: white url(../images/search.png) no-repeat;
     background-position: 2px 3px;
-    background-color: rgb(160, 139, 22);
+    /* background-color: rgb(160, 139, 22); */
     /* padding-left: 17px; */
+}
+
+center {
+    padding-top: 25px;
+}
+
+center button {
+    margin: 25px;
+    margin-right: 40px;
+}
+
+input.valid {
+    /* border-color: #28a745; */
+    padding-right: 30px;
+    background-image: url('https://www.stephenwadechryslerdodgejeep.com/wp-content/plugins/pm-motors-plugin/modules/vehicle_save/images/check.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: right center;
 }
