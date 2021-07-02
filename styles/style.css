@@ -9,6 +9,10 @@ ul {
   margin: 0;
   padding: 0;
 }
+/* .topnav {
+  margin-right: 10px;
+  margin-left: 10px;
+} */
 
 .topnav a {
   float: left;
@@ -24,6 +28,7 @@ ul {
   width: auto;
   max-width: 25px;
   max-height: 25px;
+  margin-right: 15px;
 }
 .email-img {
   height: 5px;
