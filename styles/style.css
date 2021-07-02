@@ -19,6 +19,18 @@ ul {
   text-size-adjust: inherit;
   text-justify: auto;
 }
+.topnav a img {
+  height: auto;
+  width: auto;
+  max-width: 25px;
+  max-height: 25px;
+}
+.email-img {
+  height: auto;
+  width: auto;
+  max-width: 25px;
+  max-height: 25px;
+}
 
 .topnav-right {
   float: right;
