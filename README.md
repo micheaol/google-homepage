@@ -1,0 +1,1 @@
+This is a google homepage clone project to practice my skills.
